@@ -1,24 +1,55 @@
-body  {
+/* body  {
 	height: 100vh;
 	display: block;
 	text-align: center;
-}
+} */
 section  {
-	height:50%;
+	/* height:100%; */
 	display: block;
   align-items: center; 
  	justify-content: center; 
 	block-size:100% ;
-}
-.services  {
-	color: white;
+	text-align: center;
 }
 .intro  {
 	color: white;
+	height: 100vh;
+	padding: 200px;
+}
+.about-us  {
+	height: 50vh;
+	padding: 10px;
+	margin: 50px;
+}
+.services  {
+	color: white;
+	height: 50vh;
+	padding: 100px;
+}
+.what-we-do  {
+	height: 20vh;
+	margin: 20px;
+}
+.portfolio  {
+	height: 80vh;
+	margin: 20px;
 }
 .contact-us  {
+	height: 100vh;
+}
+.card-footer  {
+	height: 10vh;
+}
+.container form  {
 	
 }
+.col-md-3  {
+	padding: 5px;
+}
+.img  {
+	padding: 5px;
+}
+
 
 
 
