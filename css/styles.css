@@ -46,10 +46,17 @@ section  {
 .col-md-3  {
 	padding: 5px;
 }
-#hidden {
+#hidden1 {
 	display: none;
 }
-button  {
+#hidden2 {
+	display: none;
+}
+#hidden3 {
+	display: none;
+}
+.clickable  {
+	cursor: pointer;
 }
 
 
