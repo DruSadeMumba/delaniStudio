@@ -1,8 +1,6 @@
- /*  {
-	
-	display: block;
-	text-align: center;
-}  */
+* {
+	font-family: fantasy;
+} 
 section  {
 	/* height:100%; */
 	display: block;
