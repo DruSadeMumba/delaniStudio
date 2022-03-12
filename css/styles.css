@@ -33,9 +33,14 @@ section  {
 .portfolio  {
 	height: 80vh;
 	margin: 20px;
+	padding: 20px;
+}
+.portfolio:hover  {
+
 }
 .contact-us  {
-	/* height: 90vh; */
+	color: white;
+	padding: 50px;
 }
 .card-footer  {
 	/* height: 10vh; */
@@ -45,7 +50,7 @@ section  {
 	padding: 20px;
 }
 .container form  {
-	
+	opacity: 0.2;
 }
 #hidden-design {
 	display: none;
@@ -64,6 +69,7 @@ section  {
 }.clickable3 {
 	cursor: pointer;
 }
+
 
 
 

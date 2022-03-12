@@ -61,7 +61,10 @@
 						<h2>WHAT WE DO</h2>
 						<div class="col-md-4">
 							<div id="design">
-								<p><span class="clickable1"><img src="./assets/services_icons/design_icon.png" alt="DESIGN"></span></p>
+								<figure>
+									<p><span class="clickable1"><img src="./assets/services_icons/design_icon.png" alt="DESIGN"></span></p>
+									<figcaption>DESIGN</figcaption>
+								</figure>
 							</div>
 							<div id="hidden-design">
 								<p><span class="clickable1">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
@@ -70,7 +73,10 @@
 						</div>
 						<div class="col-md-4">
 							<div id="development">
-								<p><span class="clickable2"><img src="./assets/services_icons/dev_icon.png" alt="DEVELOPMENT"></span></p>
+								<figure>
+									<p><span class="clickable2"><img src="./assets/services_icons/dev_icon.png" alt="DEVELOPMENT"></span></p>
+									<figcaption>DEVELOPMENT</figcaption>
+								</figure>
 							</div>
 							<div id="hidden-development">
 								<p><span class="clickable2">All engineers are fluent in the latest enterprise, mobile and web development technologies.
@@ -78,8 +84,11 @@
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div id="project-management">
-								<p><span class="clickable3"><img class="clickable" src="./assets/services_icons/product_icon.png" alt="PRODUCT MANAGEMENT"></span></p>
+							<div id="product-management">
+								<figure>
+									<p><span class="clickable3"><img class="clickable" src="./assets/services_icons/product_icon.png" alt="PRODUCT MANAGEMENT"></span></p>
+									<figcaption>PRODUCT MANAGEMENT</figcaption>
+								</figure>
 							</div>
 							<div id="hidden-pm">
 								<p><span class="clickable3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
@@ -130,18 +139,16 @@
 						}
 					</style>
 					<div class="container">
-						<form >
-							<h1>CONTACT US</h1>
+						<h1>CONTACT US</h1>
+						<form>
 							<div class="id">
-								<input type="text" placeholder="Name...">
-							</div>
-							<div class="id">
-								<input type="email" placeholder="Email...">
+								<input type="text" id="user-name" size="50" placeholder="Name..." required>
+								<input type="email" id="user-email" size="50" placeholder="Email..." required>
 							</div>
 							<div>
-								<textarea name="" id="" cols="30" rows="10">Your message here...</textarea>
+								<textarea name="text" id="user-text" cols="100" rows="10" required placeholder="Your message here..."></textarea>
 							</div>
-							<button>Send</button>
+							<button onclick="validate()" type="submit">Talk to us today!</button>
 						</form>
 					</div>	
 				</div>
