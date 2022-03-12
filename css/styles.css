@@ -52,15 +52,17 @@ section  {
 	padding: 20px;
 }
 form  {
-	opacity: 0.2;
+	opacity: 0.3;
+	border-radius: 15px;
 }
 button  {
 	width: 250px;
 	height: 50px;
 	font-weight: bolder;
+	border-radius: 15px;
 }
 button:hover  {
-	background-color: bisque;
+	background-color: lightcoral;
 }
 #hidden-design {
 	display: none;
