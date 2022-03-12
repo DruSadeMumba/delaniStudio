@@ -34,9 +34,13 @@ $(document).ready(function(){
     $("#product-management").toggle();
     $("#hidden-pm").toggle();
   });
-
-
-  $("#").hover(function (){
-    $()
-  });
 });
+
+ $(document).ready(function(){
+	$(".work").mouseenter(function(){
+		$(".overlay-text").show();
+	});(".work").mouseleave(function(){
+		$(".overlay-text").hide();
+	});
+});
+	

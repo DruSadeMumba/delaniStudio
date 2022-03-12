@@ -1,8 +1,8 @@
-/* body  {
-	height: 100vh;
+ /*  {
+	
 	display: block;
 	text-align: center;
-} */
+}  */
 section  {
 	/* height:100%; */
 	display: block;
@@ -32,12 +32,9 @@ section  {
 	margin: 20px;
 }
 .portfolio  {
-	height: 80vh;
+	height: 100vh;
 	margin: 20px;
 	padding: 20px;
-}
-.portfolio:hover  {
-
 }
 .contact-us  {
 	color: white;
@@ -82,8 +79,22 @@ button:hover  {
 .clickable3 {
 	cursor: pointer;
 }
-
-
-
-
-
+.work  {
+	transition: 0.5s;
+	overflow: hidden;
+}
+.overlay-text  {
+  overflow: hidden;
+  display: none;
+}
+.work-image  {
+  overflow: hidden;
+}
+.overlay-text:hover .work-image  {
+	visibility: visible;
+	opacity: 0.9;
+	transition: 4s;
+} 
+.row  {
+	padding: 10px;
+}
