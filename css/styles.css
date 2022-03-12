@@ -13,17 +13,17 @@ section  {
 }
 .intro  {
 	color: white;
-	height: 100vh;
+/* 	height: 100vh; */
 	padding: 200px;
 }
 .about-us  {
-	height: 50vh;
+	/* height: 50vh; */
 	padding: 10px;
 	margin: 50px;
 }
 .services  {
 	color: white;
-	height: 50vh;
+	/* height: 50vh; */
 	padding: 100px;
 }
 .what-we-do  {
@@ -35,27 +35,33 @@ section  {
 	margin: 20px;
 }
 .contact-us  {
-	height: 100vh;
+	/* height: 90vh; */
 }
 .card-footer  {
-	height: 10vh;
+	/* height: 10vh; */
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
 }
 .container form  {
 	
 }
-.col-md-3  {
-	padding: 5px;
-}
-#hidden1 {
+#hidden-design {
 	display: none;
 }
-#hidden2 {
+#hidden-development {
 	display: none;
 }
-#hidden3 {
+#hidden-pm {
 	display: none;
 }
-.clickable  {
+.clickable1 {
+	cursor: pointer;
+}
+.clickable2 {
+	cursor: pointer;
+}.clickable3 {
 	cursor: pointer;
 }
 
